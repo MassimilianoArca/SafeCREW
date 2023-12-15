@@ -2,4 +2,7 @@
     "python.analysis.autoImportCompletions": true,
     "python.analysis.typeCheckingMode": "basic",
     "python.terminal.activateEnvironment": true,
+    "terminal.integrated.shellIntegration.decorationsEnabled": true,
+    "terminal.integrated.stickyScroll.enabled": true,
+    "workbench.tree.enableStickyScroll": true,
 }
