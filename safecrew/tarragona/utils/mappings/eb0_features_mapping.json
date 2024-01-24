@@ -1,0 +1,11 @@
+{
+    "Color": "COLOR",
+    "Conductivitat a 20oC": "COND",
+    "S\u00f2lids en suspensi\u00f3": "PARTICULES",
+    "pH": "PH",
+    "Mercuri": "RATIO_HG",
+    "Sulfats": "SULFAT",
+    "Temperatura": "TEMP",
+    "Terbolesa": "TERBOLESA",
+    "\u00cdndex UV": "UV254"
+}
