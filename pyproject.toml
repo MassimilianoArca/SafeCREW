@@ -24,7 +24,12 @@ seaborn = "^0.13.0"
 pathvalidate = "^3.2.0"
 statsmodels = "^0.14.1"
 scikit-learn = "^1.4.0"
+pyarrow = "^15.0.0"
 
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.0"
+pandas = "^2.2.0"
 
 [build-system]
 requires = ["poetry-core"]
