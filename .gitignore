@@ -10,3 +10,10 @@
 # Data storage
 safecrew/milan/data
 safecrew/tarragona/data
+
+# IDE settings directories
+.idea/
+.vscode/
+
+# workspace 
+safecrew.code-workspace
