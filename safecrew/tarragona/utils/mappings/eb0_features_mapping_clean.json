@@ -1,1 +1,8 @@
-{"Color": "COLOR", "Conductivitat a 20oC": "COND", "Mercuri": "RATIO_HG", "Terbolesa": "TERBOLESA", "pH": "PH"}
+{
+    "Color": "COLOR",
+    "Conductivitat a 20oC": "COND",
+    "Mercuri": "RATIO_HG",
+    "Terbolesa": "TERBOLESA",
+    "pH": "PH",
+    "Temperatura": "TEMPERATURA"
+}
