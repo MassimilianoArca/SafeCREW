@@ -6,17 +6,11 @@
     "configurations": [
         {
             "name": "Current File",
-            "type": "python",
+            "type": "debugpy",
             "request": "launch",
             "program": "${file}",
             "console": "integratedTerminal",
             "justMyCode": true,
-            "args": [
-                "../../../Library/CloudStorage/OneDrive-PolitecnicodiMilano/SafeCREW/Thames Ecoli/new_samples",
-                "../../../Library/CloudStorage/OneDrive-PolitecnicodiMilano/SafeCREW/Thames Ecoli",
-                "historical_samples.csv",
-                "../../../Library/CloudStorage/OneDrive-PolitecnicodiMilano/SafeCREW/Thames Ecoli/historical_samples.csv", 
-            ]
         },
     ]
 }
