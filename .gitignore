@@ -8,11 +8,10 @@
 /dataSources.local.xml
 
 # Data storage
-safecrew/milan/data
-safecrew/tarragona/data
+**/data/
 
 # Utils
-safecrew/milan/utils
+**/utils/
 
 # IDE settings directories
 .idea/
