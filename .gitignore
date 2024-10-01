@@ -11,6 +11,9 @@
 safecrew/milan/data
 safecrew/tarragona/data
 
+# Utils
+safecrew/milan/utils
+
 # IDE settings directories
 .idea/
 .vscode/
