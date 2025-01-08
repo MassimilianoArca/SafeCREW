@@ -28,6 +28,15 @@ pyarrow = "^15.0.0"
 tslearn = "^0.6.3"
 kaleido = "0.2.1"
 prophet = "^1.1.5"
+miceforest = "^6.0.3"
+dtaidistance = "^2.3.12"
+umap-learn = "^0.5.7"
+datashader = "^0.16.3"
+bokeh = "^3.6.2"
+holoviews = "^1.20.0"
+scikit-image = "^0.24.0"
+colorcet = "^3.1.0"
+copkmeans = {git = "https://github.com/Behrouz-Babaki/COP-Kmeans"}
 
 
 [tool.poetry.group.dev.dependencies]
