@@ -9,6 +9,7 @@
 
 # Data storage
 **/data/
+**/*.sqlite3
 
 # Utils
 **/utils/
@@ -19,3 +20,6 @@
 
 # workspace 
 safecrew.code-workspace
+
+# docker
+safecrew/milan/modelling/docker
