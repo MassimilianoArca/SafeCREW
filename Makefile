@@ -1,7 +1,7 @@
 ifdef OS
    export PYTHON_COMMAND=python
 else
-   export PYTHON_COMMAND=python3.11
+   export PYTHON_COMMAND=python3.12
 endif
 
 
@@ -38,3 +38,7 @@ requirements:
 
 minimum-requirements:
 	poetry export --without-hashes --with-credentials -f requirements.txt | grep -e ml3-repo-manager -e pyyaml -e -- > requirements.txt
+
+clean_notebook_outputs:
+	find safecrew/milan -name "*.ipynb" -type f | xargs -I {} poetry run jupyter nbconvert --ClearOutputPreprocessor.enabled=True --inplace {}
+	@echo "Notebook outputs have been cleared successfully."

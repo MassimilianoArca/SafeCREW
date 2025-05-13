@@ -7,7 +7,6 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = ">=3.11, <3.13"
-jupyter = "^1.0.0"
 numpy = "^1.26.1"
 pandas = "^2.1.2"
 jupyterlab = "^4.0.8"
@@ -49,7 +48,12 @@ lightgbm = "^4.5.0"
 tensorflow = "^2.18.0"
 optuna-dashboard = "^0.17.0"
 reservoirpy = "^0.3.12"
-shap = "^0.47.1"
+shap = "0.38.1"
+timeshap = "^1.0.4"
+vegafusion = {extras = ["embed"], version = "^2.0.2"}
+jupyter-contrib-nbextensions = "^0.7.0"
+jupyter = "^1.1.1"
+notebook = "6.4.12"
 
 
 [tool.poetry.group.dev.dependencies]
