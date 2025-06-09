@@ -54,6 +54,8 @@ vegafusion = {extras = ["embed"], version = "^2.0.2"}
 jupyter-contrib-nbextensions = "^0.7.0"
 jupyter = "^1.1.1"
 notebook = "6.4.12"
+tensorflow-probability = "^0.25.0"
+pmdarima = "^2.0.4"
 
 
 [tool.poetry.group.dev.dependencies]

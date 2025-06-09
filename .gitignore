@@ -10,6 +10,7 @@
 # Data storage
 **/data/
 **/*.sqlite3
+**/*.pkl
 
 # Utils
 **/utils/
